@@ -1,0 +1,117 @@
+<!Doctype html><html>
+<head>
+	<meta charset="utf-8">
+	<title id="apptitle">Horario de Clases</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="http://www.torzap.com.mx/apps/Class/version.php" type="text/javascript"></script>
+	<script src="app.js" type="text/javascript"></script>
+	<link href="lib/icomoon.css" rel="stylesheet" type="text/css">
+	<link href="lib/box.css" rel="stylesheet" type="text/css">
+	<link href="lib/main.css" rel="stylesheet" type="text/css">
+	<script src="lib/jquery.js" type="text/javascript"></script>
+	<script src="lib/main.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="nav">
+		<button onclick="buttonhome()" id="buttonhome" class="icon-home"></button>
+		<span id="nav_title">Horario 5º "A" sistemas</span>
+		<button onclick="buttonmenu()" id="buttonmenu" class="icon-menu"></button>
+	</div>
+	<div id="portada">
+	<div onClick="updtlnk();" id="nwvsnupdt1" class="nwvsnupdt alert-box warning" style="cursor:pointer;">Hay una nueva versión de esta app</div>
+		<div id="navhome">
+			<div id="actionToday">
+				<button onclick="dayafter();" id="dayafter" class="icon-backward"></button>
+				<span id="getDay" onclick="window.location.href = 'index.html?page=menu';"></span>
+				<button onclick="daynext();" id="daynext" class="icon-forward2"></button>
+			</div>
+		</div>
+		<div id="day1" class="day">
+   			<div class="materia">Arquitectura de Computadoras <div class="hora">07:00 – 09:00 <span class="aula">G3</span></div>
+				<div class="profe">Elias Rodriguez Rodriguez</div></div>
+   			<div class="materia">Fundamentos de Telecomunicaciones <div class="hora">09:00 – 11:00 <span class="aula">G3</span></div>
+				<div class="profe">Maria Teresa Berlanga Pablo</div></div>
+   			<div class="materia">Simulación <div class="hora">11:00 – 12:00 <span class="aula">G3</span></div>
+				<div class="profe">Rosa Norma Garcia Morales</div></div>
+   			<div class="materia">Desarrollo Sustentable <div class="hora">12:00 – 14:00 <span class="aula">G3</span></div>
+				<div class="profe">?</div></div>
+   			<div class="materia_repite">Estructura de Datos <div class="hora">14:00 – 15:00 <span class="aula">G4</span></div>
+				<div class="profe">Maria Teresa Santiago Lerma</div></div>
+		</div>
+
+		<div id="day2" class="day">
+   			<div class="materia">Simulación <div class="hora">09:00 – 10:00 <span class="aula">G3</span></div>
+				<div class="profe">Rosa Norma Garcia Morales</div></div>
+   			<div class="materia">Taller de Bases de Datos <div class="hora">10:00 – 12:00 <span class="aula">G3</span></div>
+				<div class="profe">Claudia Morales Barron</div></div>
+   			<div class="materia">Fundamentos de Ingeniería de Software <div class="hora">12:00 – 14:00 <span class="aula">G3</span></div>
+				<div class="profe">Maricruz Torres Gonzales</div></div>
+   			<div class="materia_repite">Estructura de Datos <div class="hora">14:00 – 15:00 <span class="aula">G4</span></div>
+				<div class="profe">Maria Teresa Santiago Lerma</div></div>
+   			<div class="materia_repite">Investigación de Operaciones <div class="hora">15:00 – 17:00 <span class="aula">G4</span></div>
+				<div class="profe">Pedro Enrique Santana Dominguez</div></div>
+		</div>
+		<div id="day3" class="day">
+   			<div class="materia">Arquitectura de Computadoras <div class="hora">08:00 – 11:00 <span class="aula">G3</span></div>
+				<div class="profe">Elias Rodriguez Rodriguez</div></div>
+   			<div class="materia">Desarrollo Sustentable <div class="hora">11:00 – 14:00 <span class="aula">G3</span></div>
+				<div class="profe">?</div></div>
+   			<div class="materia_repite">Física General <div class="hora">16:00 – 18:00 <span class="aula">G4</span></div>
+				<div class="profe">?</div></div>
+		</div>
+		<div id="day4" class="day">
+   			<div class="materia">Simulación<div class="hora">09:00 – 10:00 <span class="aula">G3</span></div>
+				<div class="profe">Rosa Norma Garcia Morales</div></div>
+   			<div class="materia">Taller de Bases de Datos <div class="hora">10:00 – 12:00 <span class="aula">G3</span></div>
+				<div class="profe">Claudia Morales Barron</div></div>
+   			<div class="materia">Fundamentos de Ingeniería de Software <div class="hora">12:00 – 14:00 <span class="aula">G3</span></div>
+				<div class="profe">Maricruz Torres Gonzales</div></div>
+   			<div class="materia_repite">Estructura de datos <div class="hora">14:00 – 15:00 <span class="aula">G4</span></div>
+				<div class="profe">Maria Teresa Santiago Lerma</div></div>
+   			<div class="materia_repite">Física General <div class="hora">16:00 – 17:00 <span class="aula">G4</span></div>
+				<div class="profe">?</div></div>
+   			<div class="materia_repite">Investigación de Operaciones <div class="hora">17:00 – 19:00 <span class="aula">G4</span></div>
+				<div class="profe">Pedro Enrique Santana Dominguez</div></div>
+		</div>
+		<div id="day5" class="day">
+   			<div class="materia">Simulación <div class="hora">09:00 – 11:00 <span class="aula">G3</span></div>
+				<div class="profe">Rosa Norma Garcia Morales</div></div>
+   			<div class="materia">Fundamentos de Telecomunicaciones <div class="hora">11:00 – 13:00 <span class="aula">G3</span></div>
+				<div class="profe">Maria Teresa Berlanga Pablo</div></div>
+   			<div class="materia_repite">Física General <div class="hora">16:00 – 18:00 <span class="aula">G4</span></div>
+				<div class="profe">?</div></div>
+   			<div class="materia_repite">Estructura de datos <div class="hora">18:00 – 20:00 <span class="aula">G4</span></div>
+				<div class="profe">Maria Teresa Santiago Lerma</div></div>
+		</div>
+		<div id="day6" class="day finde">
+		</div>
+		<div id="day0" class="day finde">
+		</div>
+	</div>
+
+	<div id="menu">
+		<div id="vMenu">
+			<div><a href="index.html?page=portada&day=1"><button class="menu">Lunes</button></a></div>
+			<div><a href="index.html?page=portada&day=2"><button class="menu"">Mártes</button></a></div>
+			<div><a href="index.html?page=portada&day=3"><button class="menu">Miércoles</button></a></div>
+			<div><a href="index.html?page=portada&day=4"><button class="menu">Jueves</button></a></div>
+			<div><a href="index.html?page=portada&day=5"><button class="menu">Viernes</button></a></div>
+		</div>
+	</div>
+
+	<div id="info">
+		<div style="text-align:justify;padding:20px;">
+			Web APP con horario escolar de el campus ITSC (Instituto Tecnológico 
+			Superior de Comalcalco) de el <b>5to</b> semestre, grupo "<b>A</b>", de la carrera "<b>
+			Ingeniería en Sistemas Computacionales</b>".
+			<br /><br />
+			Esta WebAPP fué creada en las tecnologías HTML5 y CSS3 por <a href="http://twitter.com/amirtorrez">
+			@amirtorrez</a>.
+			<br /><br />
+			<div id="">Horario 5º ITSC: v<span id="actvrsn"></span></div>
+			<div class="nwvsnupdt">Nueva versión: v<span id="nw_vrsn"></span></div>
+			<div onClick="updtdwn();" id="nwvsnupdt2" class="nwvsnupdt alert-box notice" style="cursor:pointer;">Se ha encontrado una nueva versión, clic aquí para descargar</div>
+		</div>
+	</div>
+</body>
+</html>

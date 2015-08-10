@@ -1,0 +1,34 @@
+html{background: #F0F0F0 linear-gradient(#EEE, #DDD);background: #F0F0F0 -webkit-linear-gradient(#EEE, #DDD);background: #F0F0F0 -webkit-gradient(#EEE, #DDD);background: #F0F0F0 -moz-linear-gradient(#EEE, #DDD);background: #F0F0F0 -o-linear-gradient(#EEE, #DDD);background: #F0F0F0 -ms-linear-gradient(#EEE, #DDD);height:100%;font-family: Tahoma,Geneva,Arial,sans-serif;}
+.horario{text-align:center;margin:auto;}
+.day{padding-bottom:5px;}
+.materia{text-align:center;margin-bottom:8px;border:1px #ccc solid;padding:2%;border-radius:5px;}
+.materia_repite{text-align:center;margin-bottom:8px;border:1px #ccc solid;padding:2%;border-radius:5px;background:#F6D8CE;}
+.materia_repite{display:none;}
+.hora{font-size:11px;color:#c00;font-weight:Bold;}
+.aula{font-size:11px;color:green;font-weight:Bold;}
+.profe{font-size:11px;color:Blue;font-weight:Bold;}
+.install-button{width:100%;}
+#actvrsn,#nwvrsn{font-weight:bold;}
+/*.nwvsnupdt{display:none;}*/
+#nav{position:fixed;width:100%;text-align:center;margin:-8px 0 40px -20px;padding:12px;background: #111 linear-gradient(#3C3C3C, #111);background: #111 -webkit-gradient(#3C3C3C, #111);background: #111 -moz-linear-gradient(#3C3C3C, #111);background: #111 -webkit-linear-gradient(#3C3C3C, #111);background: #111 -o-linear-gradient(#3C3C3C, #111);background: #111 -ms-linear-gradient(#3C3C3C, #111);}
+#buttonmenu,#buttonhome {margin-top:-6px;font-size:24px;color: #fff;background:transparent;border: 0px none;text-shadow: 1px 1px 1px #666;}
+#buttonhome {float:left;font-weight:bold;}
+#buttonmenu {float:right;}
+#nav_title{color:#fff;text-shadow: 1px 1px 1px #333;font-weight:bold;}
+#nwvsnupdt1{margin-bottom:40px;}
+#nwvsnupdt2{margin-top:40px;}
+
+#info{}
+
+#navhome{text-align:center;margin-top:20px;margin-bottom:40px;}
+#actionToday{width:70%;margin:0 auto;}
+#dayafter,#daynext {font-size:30px;color: #333;background:transparent;border: 0px none;text-shadow: 1px 1px 1px #666;font-weight:bold;}
+#dayafter{float:left;}
+#daynext{float:right;}
+#getDay{font-size:22px;margin-bottom:-20px;color:#333;text-shadow: 1px 1px 1px #ccc;font-weight:bold;}
+
+#portada{text-align:center;padding-top:40px;}
+#finde{margin:0 auto;height:428px;}
+
+#vMenu{text-align:center;width:95%;margin:0 auto;margin-top:40px;}
+.menu{color:#333;font-weight:bold;cursor:pointer;width:90%;height:50px;margin-bottom:8px;background: #111 linear-gradient(#ccc, #999) repeat scroll 0% 0%;border:0px;}
