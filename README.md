@@ -1,2 +1,1 @@
-# Horario-ITSC
-WebApp de Horario escolar ITSC
+WebApp de Horario escolar ITSC desarrollado en HTML, CSS y Javascript
