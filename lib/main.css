@@ -1,15 +1,16 @@
 html{background: #F0F0F0 linear-gradient(#EEE, #DDD);background: #F0F0F0 -webkit-linear-gradient(#EEE, #DDD);background: #F0F0F0 -webkit-gradient(#EEE, #DDD);background: #F0F0F0 -moz-linear-gradient(#EEE, #DDD);background: #F0F0F0 -o-linear-gradient(#EEE, #DDD);background: #F0F0F0 -ms-linear-gradient(#EEE, #DDD);height:100%;font-family: Tahoma,Geneva,Arial,sans-serif;}
+.nwvsnupdt,#info,#navhome,#buttonmenu,#menu{display:none;}
 .horario{text-align:center;margin:auto;}
 .day{padding-bottom:5px;}
 .materia{text-align:center;margin-bottom:8px;border:1px #ccc solid;padding:2%;border-radius:5px;}
 .materia_repite{text-align:center;margin-bottom:8px;border:1px #ccc solid;padding:2%;border-radius:5px;background:#F6D8CE;}
-.materia_repite{display:none;}
+/*.materia_repite{display:none;}*/
 .hora{font-size:11px;color:#c00;font-weight:Bold;}
 .aula{font-size:11px;color:green;font-weight:Bold;}
 .profe{font-size:11px;color:Blue;font-weight:Bold;}
 .install-button{width:100%;}
 #actvrsn,#nwvrsn{font-weight:bold;}
-/*.nwvsnupdt{display:none;}*/
+.hide,.materia_repite{display:none;}
 #nav{position:fixed;width:100%;text-align:center;margin:-8px 0 40px -20px;padding:12px;background: #111 linear-gradient(#3C3C3C, #111);background: #111 -webkit-gradient(#3C3C3C, #111);background: #111 -moz-linear-gradient(#3C3C3C, #111);background: #111 -webkit-linear-gradient(#3C3C3C, #111);background: #111 -o-linear-gradient(#3C3C3C, #111);background: #111 -ms-linear-gradient(#3C3C3C, #111);}
 #buttonmenu,#buttonhome {margin-top:-6px;font-size:24px;color: #fff;background:transparent;border: 0px none;text-shadow: 1px 1px 1px #666;}
 #buttonhome {float:left;font-weight:bold;}
