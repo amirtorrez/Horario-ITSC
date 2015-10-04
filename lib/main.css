@@ -33,3 +33,5 @@ a{text-decoration:none;}
 body {overflow: hidden;}
 #preloader {position: fixed;top:0; left:0;right:0; bottom:0;background: #000;z-index: 100;color: #FFF;}
 #loader {width: 100px;height: 100px;position: absolute;left:50%; top:50%;background: url(../src/loader.gif) no-repeat center 0;margin:-50px 0 0 -50px;}
+#console{font-size:14px;color:gray;}
+#console:before{content:"Consola:";}
