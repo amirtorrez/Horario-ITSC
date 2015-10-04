@@ -2,6 +2,7 @@
  <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
+     xmlns:android   = "http://schemas.android.com/apk/res/android"
      id    = "com.torzap.horario5toA"  
      version  = "0.5.6">  
    <name>Horario 5to A</name>  
@@ -37,6 +38,10 @@
    <gap:plugin name="com.ququplay.websocket.websocket" version="0.1.0" />
    <gap:plugin name="cz.blocshop.socketsforcordova" version="1.1.0" />-->
    <feature name="http://api.phonegap.com/1.0/network" />
+   <gap:config-file platform="android" parent="/manifest" mode="merge">
+    <uses-permission android:name="android.permission.INTERNET" />
+   </gap:config-file>
+
    <!-- Define app icon for each platform. -->  
    <icon src="src/icons/128.png" />  
    <icon src="src/icons/android/36.png"  gap:platform="android"  gap:qualifier="ldpi" />  
