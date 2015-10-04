@@ -33,9 +33,9 @@
    <preference name="android-minSdkVersion"   value="7" />       <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->  
    <preference name="android-installLocation"  value="auto" />      <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->  
    <!-- Plugins -->  
-   <!-- Core plugins   -->
+   <!-- Core plugins   
    <gap:plugin name="com.ququplay.websocket.websocket" version="0.1.0" />
-   <gap:plugin name="cz.blocshop.socketsforcordova" version="1.1.0" />
+   <gap:plugin name="cz.blocshop.socketsforcordova" version="1.1.0" />-->
    <!-- Define app icon for each platform. -->  
    <icon src="src/icons/128.png" />  
    <icon src="src/icons/android/36.png"  gap:platform="android"  gap:qualifier="ldpi" />  
@@ -50,7 +50,9 @@
      <access origin="*" /> - a wildcard access tag allows access to all external resource.  
      Otherwise, you can specify specific domains:  
    -->  
-   <access origin="*" subdomains="true" />
-   <access origin="http://www.torzap.com.mx/apps/Class/version.json" subdomains="true" />
-   <access origin="http://torzap.com.mx/apps/Class/*" subdomains="true" />
+     <cordova>
+      <access origin="*" subdomains="true" />
+      <access origin="http://www.torzap.com.mx/apps/Class/version.json" subdomains="true" />
+      <access origin="http://torzap.com.mx/apps/Class/*" subdomains="true" />
+     </cordova>
    </widget>  
