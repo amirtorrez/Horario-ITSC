@@ -56,9 +56,8 @@
      <access origin="*" /> - a wildcard access tag allows access to all external resource.  
      Otherwise, you can specify specific domains:  
    -->  
-     <cordova>
-      <access origin="*" subdomains="true" />
-      <access origin="http://www.torzap.com.mx/apps/Class/version.json" subdomains="true" />
-      <access origin="http://torzap.com.mx/apps/Class/*" subdomains="true" />
-     </cordova>
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="*" subdomains="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
    </widget>  
