@@ -50,6 +50,7 @@
      <access origin="*" /> - a wildcard access tag allows access to all external resource.  
      Otherwise, you can specify specific domains:  
    -->  
-   <access origin="*" />
-   <access origin="http://www.torzap.com.mx/apps/Class/version.json" />
+   <access origin="*" subdomains="true" />
+   <access origin="http://www.torzap.com.mx/apps/Class/version.json" subdomains="true" />
+   <access origin="http://torzap.com.mx/apps/Class/*" subdomains="true" />
    </widget>  
