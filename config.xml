@@ -51,6 +51,7 @@
      <access origin="*" /> - a wildcard access tag allows access to all external resource.  
      Otherwise, you can specify specific domains:  
    -->  
-   <!--<access origin="*"/>-->
+   <access origin="*" />
    <access origin="http://torzap.com.mx/*" />
+   <access origin="http://www.torzap.com.mx/*" />
    </widget>  
