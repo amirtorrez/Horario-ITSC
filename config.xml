@@ -36,6 +36,7 @@
    <!-- Core plugins   
    <gap:plugin name="com.ququplay.websocket.websocket" version="0.1.0" />
    <gap:plugin name="cz.blocshop.socketsforcordova" version="1.1.0" />-->
+   <feature name="http://api.phonegap.com/1.0/network" />
    <!-- Define app icon for each platform. -->  
    <icon src="src/icons/128.png" />  
    <icon src="src/icons/android/36.png"  gap:platform="android"  gap:qualifier="ldpi" />  
