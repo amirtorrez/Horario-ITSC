@@ -3,9 +3,9 @@
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
      xmlns:android   = "http://schemas.android.com/apk/res/android"
-     id    = "com.torzap.horario5toA"  
-     version  = "0.5.6">  
-   <name>Horario 5to A</name>  
+     id    = "com.torzap.horario6toA"  
+     version  = "0.6.0">  
+   <name>Horario 6to A</name>  
    <description>  
      Horario de clases
    </description>  
