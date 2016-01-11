@@ -1,8 +1,8 @@
 {
-  "name": "Horario 5º A",
+  "name": "Horario 6º A",
   "package_path": "http://www.torzap.com.mx/apps/Class/package.zip",
   "size": 103973,
-  "version": "0.5.5",
+  "version": "0.6.0",
   "developer": {
     "name": "@amirtorrez",
     "url": "http://twitter.com/amirtorrez"
