@@ -1,6 +1,6 @@
 {
-	"name": "Horario 5to A",
-	"version": "0.5.6",
+	"name": "Horario 6to A",
+	"version": "0.6.0",
 	"description": "Horario escolar de el campus ITSC",
 	"launch_path": "/index.html",
 	"default_locale": "es",
@@ -13,10 +13,10 @@
 		"url": "http://twitter.com/amirtorrez"
 	},
 	"school":{
-		"grade": "5to Semestre",
+		"grade": "6to Semestre",
 		"group": "A",
 		"turn": "Matutino",
-		"classroom": "G3"
+		"classroom": "G9"
 	},
 	"installs_allowed_from": ["*"],
 	"orientation": ["portrait-primary"]
