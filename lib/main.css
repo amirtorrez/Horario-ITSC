@@ -12,9 +12,9 @@ html{background: #F0F0F0 linear-gradient(#EEE, #DDD);background: #F0F0F0 -webkit
 #actvrsn,#nwvrsn{font-weight:bold;}
 /*.hide{display:none;}*/
 #nav{position:fixed;width:100%;text-align:center;margin:-8px 0 40px -20px;padding:12px;background: #111 linear-gradient(#3C3C3C, #111);background: #111 -webkit-gradient(#3C3C3C, #111);background: #111 -moz-linear-gradient(#3C3C3C, #111);background: #111 -webkit-linear-gradient(#3C3C3C, #111);background: #111 -o-linear-gradient(#3C3C3C, #111);background: #111 -ms-linear-gradient(#3C3C3C, #111);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3C3C3C', endColorstr='#111111',GradientType=0 );}
-#buttonmenu,#buttonhome {margin-top:-6px;font-size:24px;color: #fff;background:transparent;border: 0px none;text-shadow: 1px 1px 1px #666;}
-#buttonhome {float:left;font-weight:bold;}
-#buttonmenu {float:right;}
+#buttonmenu,#buttonhome {margin-top:-3px;font-size:24px;color: #fff;background:transparent;border: 0px none;text-shadow: 1px 1px 1px #666;}
+#buttonhome {float:left;margin-left:3px;font-weight:bold;}
+#buttonmenu {float:right;margin-right:3px;}
 #nav_title{color:#fff;text-shadow: 1px 1px 1px #333;font-weight:bold;}
 #nwvsnupdt1{margin-bottom:30px;}
 #nwvsnupdt2{margin-top:30px;cursor:pointer;text-decoration:none;}
