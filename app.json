@@ -1,23 +1,5 @@
 {
-	"name": "Horario 6to A",
-	"version": "0.6.0",
-	"description": "Horario escolar de el campus ITSC",
-	"launch_path": "/index.html",
-	"default_locale": "es",
-	"size": 103973,
-	"icons": {
-		"128": "/src/icons/128.png"
-	},
-	"developer": {
-		"name": "@amirtorrez",
-		"url": "http://twitter.com/amirtorrez"
-	},
-	"school":{
-		"grade": "6to Semestre",
-		"group": "A",
-		"turn": "Matutino",
-		"classroom": "G9"
-	},
-	"installs_allowed_from": ["*"],
-	"orientation": ["portrait-primary"]
+	"name": "Horario 8vo A",
+	"version": "0.8.0",
+	"description": "Horario escolar de el campus ITSC"
 }
